@@ -20,6 +20,7 @@ const useStyles = makeStyles((theme: Theme) =>
 // วันนี้ทำได้ถึงงานครั้งก่อน เเต่ยังติดปัญหาลดopacityของnav เเล้วข้อมูลลดไปด้วย
 // พนทำdataของเเต่ละส่วน ถ้าทันเอาไปใส่ข้อมูลด้วย (น่าจะได้จัดcss ของmore info ข้างในกล่องheader)
 // navไม่เลื่อนตามscroll mouse
+//test push git
 
 export default function Home() {
   const classes = useStyles();
