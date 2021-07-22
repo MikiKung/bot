@@ -13,7 +13,7 @@ const useStyles = makeStyles((theme: Theme) =>
   })
 );
 
-export default function defaultLayout({ children }: any) {
+export default function DefaultLayout({ children }: any) {
   const classes = useStyles();
   return (
     <div className={classes.background}>
