@@ -1,0 +1,106 @@
+.root {
+  padding-top: 50px;
+}
+.Center {
+  display: flex;
+  justify-content: center;
+}
+.box {
+  background-color: rgba(24, 47, 56, 0.97);
+  height: auto;
+  width: 850px;
+  border-radius: 20px;
+  overflow: auto;
+  padding: 20px;
+}
+.boxDev {
+  background-color: rgba(24, 47, 56, 0.97);
+  width: 850px;
+  border-radius: 20px;
+  // overflow:auto;
+}
+.cardOne {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-right: 20px;
+  padding-left: 20px;
+  background-color: rgba(5, 71, 105, 0.9);
+  height: 200px;
+  border-radius: 20px;
+  width: 130px;
+  margin: 15px;
+}
+.cardOneMore4 {
+  display: flex;
+  flex-direction: column;
+  padding-right: 20px;
+  padding-left: 20px;
+  justify-content: space-evenly;
+  background-color: rgba(5, 71, 105, 0.9);
+  height: 200px;
+  border-radius: 20px;
+  min-width: 130px;
+  margin: 15px;
+}
+.cardAll {
+  display: flex;
+  overflow: auto;
+  justify-content: space-evenly;
+}
+.cardAllMore4 {
+  display: flex;
+  overflow: auto;
+}
+.cardPic {
+  border-radius: 50px;
+  padding: 20px;
+}
+.textInfoDev {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.discord {
+  background-color: rgb(61, 120, 198) !important;
+  font-size: 12px !important;
+  font-weight: bold !important;
+  border-radius: 20px !important;
+  padding-top: 5px !important;
+  &:hover {
+    background-color: rgba(149, 181, 230, 1) !important;
+  }
+}
+.nameDev {
+  display: flex;
+  white-space: nowrap;
+  padding-bottom: 10px;
+  color: rgba(222, 224, 224, 1);
+}
+
+.CenterText {
+  display: flex;
+  justify-content: center;
+  color: rgba(255, 255, 255, 1);
+}
+.textHome{
+  color: rgba(255, 255, 255, 1);
+  // padding: 50px;
+}
+@media only screen and (max-width: 600px) {
+  .boxDev {
+    width: 100vw;
+    overflow: hidden !important;
+    // padding-left: 10px;
+  }
+  .cardAll {
+    overflow: auto;
+    justify-content: start;
+  }
+  .box {
+    height: auto;
+    border-radius: 20px;
+    overflow: auto;
+  }
+}
