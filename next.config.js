@@ -2,7 +2,7 @@ const isProd = process.env.NODE_ENV === "production";
 const path = require('path')
 
 module.exports = {
-  assetPrefix: '/bot',
+  assetPrefix: isProd ? "/bot" : "/",
   sassOptions: {
     includePaths: [path.join(__dirname, 'styles')],
   },

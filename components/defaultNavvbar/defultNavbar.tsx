@@ -110,6 +110,12 @@ export default function DefualtNavbar() {
         >
          Invite
         </Button>
+        <Button
+          className={classes.btn}
+          href="https://discord.gg/GWYZAxjd"
+        >
+         Discord
+        </Button>
       </ButtonGroup>
       <Button className={classes.hamburger}>
         <Button onClick={handleClick}>
@@ -147,6 +153,14 @@ export default function DefualtNavbar() {
               href="https://discord.com/api/oauth2/authorize?client_id=859072074530029616&permissions=8&scope=bot"
             >
               Invite
+            </Button>
+          </MenuItem>
+          <MenuItem onClick={handleClose}>
+            <Button
+              className={classes.btn}
+              href="https://discord.gg/GWYZAxjd"
+            >
+              Discord
             </Button>
           </MenuItem>
         </Menu>
