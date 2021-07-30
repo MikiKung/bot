@@ -85,17 +85,19 @@
 }
 @media only screen and (max-width: 600px) {
   .boxDev {
-    width: 100vw;
+    width: 90vw;
     overflow: hidden !important;
     // padding-left: 10px;
   }
   .cardAll {
     overflow: auto;
     justify-content: start;
+    
   }
   .box {
     height: auto;
     border-radius: 20px;
     overflow: auto;
+    width: 90%;
   }
 }

@@ -6,7 +6,7 @@ import { CopyToClipboard } from "react-copy-to-clipboard";
 import CheckCircleIcon from "@material-ui/icons/CheckCircle";
 import { useState } from "react";
 
-export default function CopyTag(props: any, { children }: any) {
+export default function CopyTag(props: any) {
   const useStyles = makeStyles((theme: Theme) =>
     createStyles({
       textBox: {
