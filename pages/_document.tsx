@@ -11,6 +11,7 @@ class MyDocument extends Document {
       <Html>
         <Head>
             <link rel="icon" type="image/png" href="https://cdn.discordapp.com/attachments/804349049192972308/870364673516638208/sft_avatar.png" />
+            <title>School Life</title>
         </Head>
         <body>
           <Main />
