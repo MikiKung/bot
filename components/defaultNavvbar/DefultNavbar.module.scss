@@ -5,15 +5,17 @@
 }
 .btn {
   width: 150px;
+  color: white !important;
 }
 .nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 50px;
+  box-shadow: 0 5px 30px #eeeeee;
   padding-left: 20px;
   padding-right: 10px;
-  background-color: rgba(5, 71, 105, 1);
+  background-color: rgba(36, 122, 165 ,1);
   position: fixed;
   width: 100%;
   z-index: 100;
@@ -33,6 +35,7 @@
 .logoText {
   display: flex;
   align-items: center;
+  color: white;
   padding-left: 10px;
   font-family: Lato;
 }
