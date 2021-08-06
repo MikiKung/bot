@@ -82,16 +82,6 @@ export default function DefualtNavbar() {
         `}
       </style>
       <div className={classes.logo}>
-        <Image
-          className={classes.pic}
-          loader={({ src }) => src}
-          width={55}
-          height={55}
-          alt={"res"}
-          src={
-            "https://cdn.discordapp.com/avatars/859072074530029616/c28264f3ace8967b0919c255d3d1f6c4.webp?size=2048"
-          }
-        />
         <h1 className={classes.logoText}>School Life</h1>
       </div>
       <ButtonGroup variant="text" className={classes.btnGroup}>
@@ -106,15 +96,12 @@ export default function DefualtNavbar() {
         </Button>
         <Button
           className={classes.btn}
-          href="https://discord.com/api/oauth2/authorize?client_id=859072074530029616&permissions=8&scope=bot"
+          href="https://code001.ml/?__cf_chl_jschl_tk__=pmd_70f1a85982aebc2e48427b500526234a7c52abd6-1628272448-0-gqNtZGzNAc2jcnBszQi6"
         >
-         Invite
+          Invite
         </Button>
-        <Button
-          className={classes.btn}
-          href="https://discord.gg/GWYZAxjd"
-        >
-         Discord
+        <Button className={classes.btn} href="https://discord.gg/GWYZAxjd">
+          Discord
         </Button>
       </ButtonGroup>
       <Button className={classes.hamburger}>
@@ -156,10 +143,7 @@ export default function DefualtNavbar() {
             </Button>
           </MenuItem>
           <MenuItem onClick={handleClose}>
-            <Button
-              className={classes.btn}
-              href="https://discord.gg/GWYZAxjd"
-            >
+            <Button className={classes.btn} href="https://discord.gg/e6Rhefgn">
               Discord
             </Button>
           </MenuItem>

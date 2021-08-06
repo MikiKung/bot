@@ -126,29 +126,7 @@ export default function Home() {
         <br />
         <div className={classes.Center}>
           <div className={classes.box}>
-            <q>Home info</q>
-            <q>Home info</q>
-            <q>Home info</q>
-            <q>Home info</q>
-            <q>Home info</q>
-            <q>Home info</q>
-            <q>Home info</q>
-            <q>Home info</q>
-            <q>Home info</q>
-            <q>Home info</q>
-            <q>Home info</q>
-            <q>Home info</q>
-            <q>Home info</q>
-            <q>Home info</q>
-            <q>Home info</q>
-            <q>Home info</q>
-            <q>Home info</q>
-            <q>Home info</q>
-            <q>Home info</q>
-            <q>Home info</q>
-            <q>Home info</q>
-            <q>Home info</q>
-            <q>Home info</q>
+            <span className={classes.textHome}> บอทสำหรับใช้งานบนเซิร์ฟเวอร์ดิสคอร์ด สามารถใช้งานได้ฟรีไม่มีค่าใช้จ่าย ใช้ดีใช้สนุก </span>
           </div>
         </div>
       </div>

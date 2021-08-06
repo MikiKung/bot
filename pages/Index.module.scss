@@ -5,15 +5,24 @@
   display: flex;
   justify-content: center;
 }
+.textHome {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  align-items: center;
+  color: white !important;
+  font-size: 23px;
+}
 .box {
-  background-color: rgba(24, 47, 56, 0.97);
+  background-color: rgba(36, 122, 165 ,1);
   height: auto;
   width: 850px;
   border-radius: 20px;
   overflow: auto;
+  min-height: 220px;
 }
 .boxDev {
-  background-color: rgba(24, 47, 56, 0.97);
+  background-color: rgba(36, 122, 165 ,1);
   width: 850px;
   border-radius: 20px;
   // overflow:auto;
@@ -36,7 +45,7 @@
   padding-right: 20px;
   padding-left: 20px;
   justify-content: space-evenly;
-  background-color: rgba(5, 71, 105, 0.9);
+  background-color: rgba(61, 101, 121, 0.9);
   height: 200px;
   border-radius: 20px;
   min-width: 130px;
@@ -99,5 +108,12 @@
     border-radius: 20px;
     overflow: auto;
     width: 90%;
+  }
+  .textHome {
+    padding-left:20px !important;
+    padding-right:20px !important;
+    padding-top:20 !important;
+    align-items: flex-start;
+   
   }
 }
